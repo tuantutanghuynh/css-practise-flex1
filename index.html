@@ -4,51 +4,56 @@
   <meta charset="UTF-8">
   <title>Fast Food Menu</title>
   <style>
-    body{
+    body {
       font-family: Arial, sans-serif;
       background-color: #fefefe;
-      padding 20px;
-      margin:0;
+      padding: 20px;
+      margin: 0;
     }
-    .title{
+
+    .title {
       text-align: center;
       color: #FB4141;
       margin-bottom: 30px;
       font-size: 36px;
       text-shadow: 1px 1px 2px #aaa;
     }
-    .menu-container{
+
+    .menu-container {
       display: flex;
-      flex-flow:row wrap;
+      flex-flow: row wrap;
       justify-content: space-around;
       gap: 20px;
-      padding: 20px
+      padding: 20px;
       border: 5px solid #B4E50D;
       border-radius: 12px;
       background: #F9FFF0;
     }
-    .menu-item{
+
+    .menu-item {
       flex: 1 1 150px;
-      min-width:120px;
-      max-width:200px;
+      min-width: 120px;
       background: linear-gradient(135deg, #78C841, #B4E50D);
       color: white;
       font-weight: bold;
       text-align: center;
-      padding:20px;
+      padding: 20px;
       border-radius: 12px;
-      box-shadow:0 3px 6px rgba(0,0,0,0.1);
-       transition: transform 0.3s, background 0.3s;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s, background 0.3s;
     }
-    .menu-item:hover{
-      background:#FF9B2F ;
+
+    .menu-item:hover {
+      background: #FF9B2F;
       transform: scale(1.05);
-    cursor: pointer;
+      cursor: pointer;
     }
+
   </style>
 </head>
 <body>
   <h1 class="title">🍔 Fast Food Menu</h1>
+
   <div class="menu-container">
     <div class="menu-item">🍟 Fries</div>
     <div class="menu-item">🍔 Burger</div>
@@ -57,6 +62,5 @@
     <div class="menu-item">🥤 Soda</div>
     <div class="menu-item">🍗 Chicken</div>
   </div>
-
 </body>
 </html>
